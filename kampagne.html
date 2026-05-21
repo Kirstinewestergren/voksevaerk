@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Inter font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome ikoner -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style-voksen.css" />
+
+    <title>Vokseværk</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="logo">
+        <a href="index.html">
+          <img src="img/logo.svg" alt="vokseværk-logo" />
+        </a>
+      </div>
+
+      <nav class="topnav" id="myTopnav">
+        <a href="economic.html">ØKONOMI</a>
+        <a href="skat.html">SKAT</a>
+        <a href="bolig.html">BOLIG</a>
+        <a href="community.html">SPØRGEHJØRNET</a>
+        <a href="kampagne.html" class="active">KAMPAGNE</a>
+        <a href="index.html">HJEM</a>
+        <button class="burger" onclick="toggleMenu()">☰</button>
+      </nav>
+      <button class="login-btn">Log ind</button>
+    </header>
+
+    <section class="hero">
+      <img class="hero-image" src="img/hero-pic.png" alt="hero-pic" />
+
+      <div class="hero-text-box">
+        <h1><span class="curved-underline">KAMPAGNE</span><br /></h1>
+      </div>
+    </section>
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div class="footer-col">
+          <h2><span class="curved-underline">VOKSEVÆRK</span></h2>
+          <p>Vokseværksvej 451, <br />2450 København SV</p>
+        </div>
+        <div class="footer-col">
+          <a href="tel:+4512345678"
+            ><strong>TELEFON</strong> <br />+45 12 34 56 78</a
+          >
+
+          <a href="mailto:hej@voksevaerk.dk"
+            ><strong>MAIL</strong> <br />hej@voksevaerk.dk</a
+          >
+        </div>
+
+        <div class="footer-col">
+          <a href="#" aria-label="Facebook">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+          <a href="#" aria-label="Instagram">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+
+          <a href="#" aria-label="TikTok">
+            <i class="fa-brands fa-tiktok"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>
+          © 2026 Vokseværk. Alle rettigheder forbeholdes. 2. Semester
+          Eksamensprojekt. EK
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
